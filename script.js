@@ -18,8 +18,8 @@ if (storageAvailable('localStorage')) {
   if (bookList === null) {
     bookList = [
       {
-        title: 'elisha',
-        author: 'good',
+        title: 'The midnight club',
+        author: 'Christopher pike',
         id: 0,
       },
     ];
