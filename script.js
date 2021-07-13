@@ -1,3 +1,5 @@
+/* eslint max-classes-per-file: ["error", 2] */
+
 let bookList;
 const bookUl = document.querySelector('.book-list');
 const tableContainer = document.querySelector('.tbody');
