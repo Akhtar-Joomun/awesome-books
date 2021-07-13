@@ -43,7 +43,7 @@ For tracking linter errors locally you need to follow these steps:
 - And for tracking the linter errors in CSS file run:
   > `npx stylelint "\*_/_.{css,scss}"`
 
-## Author
+## Authors
 
 👤 **Isaac Lumato**
 
@@ -52,7 +52,9 @@ For tracking linter errors locally you need to follow these steps:
 - LinkedIn: [Isaac Lumato](https://www.linkedin.com/in/isaka-william-90773020b/)
 
 👤 **Akhtar Joomun** 💖
-
+- GitHub: [@githubhandle](https://github.com/Akhtar-Joomun)
+- Twitter: [@twitterhandle](https://twitter.com/Akhtar54272024)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/akhtar-joomun-0b86021b8/)
 
 ## Show your support
 
