@@ -25,6 +25,10 @@ body {
   align-items: center;
 }
 
+.tbody {
+  border-style: solid;
+}
+
 th {
   font-size: 1.2rem;
 }
@@ -41,6 +45,7 @@ th {
   background-color: red;
   color: #fff;
   padding: 5px 10px;
+  margin-left: 70%;
 }
 
 .add-book {

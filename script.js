@@ -79,11 +79,10 @@ class Node {
 
     removeButton.classList.add('remove');
 
-    title.innerHTML = `<td>${this.title}</td>`;
+    title.innerHTML = `<td>"${this.title}" by ${this.author}</td>`;
     author.innerHTML = `<td>${this.author}</td>`;
 
     bookContainer.appendChild(title);
-    bookContainer.appendChild(author);
     buttonTd.appendChild(removeButton);
     bookContainer.appendChild(buttonTd);
     tableContainer.appendChild(bookContainer);
