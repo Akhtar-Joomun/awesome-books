@@ -1,4 +1,48 @@
-* {
-  margin: 1%;
+body {
+  margin: 0;
   padding: 0;
+}
+
+.sub {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 0;
+  width: 100%;
+  background-color: rgb(0, 179, 0);
+  color: white;
+  margin-bottom: 25px;
+}
+
+.label {
+  font-size: 1.2rem;
+}
+
+.form-data,
+.book-list,
+.table-data {
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  font-size: 1.2rem;
+}
+
+.table {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.remove {
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  background-color: red;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.add-book {
+  width: 50%;
 }
