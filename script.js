@@ -81,6 +81,7 @@ class Node {
 
     title.innerHTML = `<td>"${this.title}" by ${this.author}</td>`;
     author.innerHTML = `<td>${this.author}</td>`;
+    title.classList.add('title-author');
 
     bookContainer.appendChild(title);
     buttonTd.appendChild(removeButton);
