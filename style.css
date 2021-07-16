@@ -61,3 +61,40 @@ th {
 .title-author {
   width: 540px;
 }
+
+.hidden {
+  display: none;
+}
+
+.main-contents {
+  height: 67vh;
+  overflow: scroll;
+}
+
+.contact-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.timezone {
+  margin-left: 2%;
+}
+
+.navbar-brand {
+  margin-left: 2%;
+  font-weight: bolder;
+}
+
+.nav-link {
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.nav-link:hover {
+  transform: scale(1.25);
+}
+
+.footer-content {
+  margin-left: 35%;
+}
