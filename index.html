@@ -11,30 +11,62 @@
 </head>
 
 <body>
-  <div class="main-container mt-5">
-    <h1 class="text-center">AWESOME BOOKS</h1>
-    <div class="d-flex table-data">
-      <table class="table table-striped w-50">
-        <thead>
-
-        </thead>
-        <tbody class="tbody book-list">
-        </tbody>
-      </table>
-    </div>
-    <hr>
-    <form class="d-flex form-data mt-5">
-      <div class="add-book">
-        <h2 class="add-book-title">Add a new book</h2>
-        <label for="title" class="label"></label><br>
-        <input type="text" class="form-control" name="title" id="title" placeholder="Title"><br>
-        <label for="author" class="label"></label><br>
-        <input type="text" class="form-control" name="author" id="author" placeholder="Author"><br>
-        <input type="submit" class="sub" id="submit" value="Add">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light books-nav">
+      <a class="navbar-brand" href="#">Awesome Books</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav navbar-default ml-auto">
+          <a class="nav-item nav-link list-button visible" href="#">List</a>
+          <a class="nav-item nav-link form-button visible" href="#">Add New</a>
+          <a class="nav-item nav-link contact-button visible" href="#">Contact</a>
+        </div>
       </div>
-    </form>
-    <script src="script.js"></script>
+    </nav>
+    <span class="timezone"></span>
+  </header>
+  <div class="main-container mt-5">
+    <div class="main-contents">
+      <div class="book-section">
+        <h1 class="text-center">AWESOME BOOKS</h1>
+        <div class="d-flex table-data">
+          <table class="table table-striped w-50">
+            <thead>
+            </thead>
+            <tbody class="tbody book-list">
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="form-section">
+        <form class="d-flex form-data mt-5">
+          <div class="add-book hidden">
+            <h2 class="add-book-title">Add a new book</h2>
+            <label for="title" class="label"></label><br>
+            <input type="text" class="form-control" name="title" id="title" placeholder="Title"><br>
+            <label for="author" class="label"></label><br>
+            <input type="text" class="form-control" name="author" id="author" placeholder="Author"><br>
+            <input type="submit" class="sub" id="submit" value="Add">
+          </div>
+        </form>
+      </div>
+      <div class="contact-div hidden">
+        <h4>CONTACT US</h4>
+        <p>For equeries, please reach out on the address below</p>
+        <ul>
+          <li>Website:<a href="#">www.teamwork.com</a></li>
+        <li>Call sales:<a href="#">+230 5 884 2776 </a></li>
+        <li>Send us a mail:<a href="#">info@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
+  <footer class="footer d-flex bg-light py-5">
+    <div class="footer-content">
+      <h4>Developed and serviced by <span><a href="#">TeamWork</a></span></h4>
+      <p>Copyrights &copy2021, All Rights reserved</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="navigation.js" type="module"></script>
 </body>
-
 </html>
